@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/edit.js":
-/*!*********************!*\
-  !*** ./src/edit.js ***!
-  \*********************/
+/***/ "./src/blocks/curvy/edit.js":
+/*!**********************************!*\
+  !*** ./src/blocks/curvy/edit.js ***!
+  \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,7 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./editor.scss */ "./src/editor.scss");
+/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./editor.scss */ "./src/blocks/curvy/editor.scss");
 
 /**
  * Retrieves the translation of text.
@@ -59,19 +59,19 @@ function Edit() {
 
 /***/ }),
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/blocks/curvy/index.js":
+/*!***********************************!*\
+  !*** ./src/blocks/curvy/index.js ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.scss */ "./src/style.scss");
-/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./edit */ "./src/edit.js");
-/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./save */ "./src/save.js");
-/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./block.json */ "./src/block.json");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.scss */ "./src/blocks/curvy/style.scss");
+/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./edit */ "./src/blocks/curvy/edit.js");
+/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./save */ "./src/blocks/curvy/save.js");
+/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./block.json */ "./src/blocks/curvy/block.json");
 /**
  * Registers a new block provided a unique name and an object defining its behavior.
  *
@@ -113,10 +113,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/save.js":
-/*!*********************!*\
-  !*** ./src/save.js ***!
-  \*********************/
+/***/ "./src/blocks/curvy/save.js":
+/*!**********************************!*\
+  !*** ./src/blocks/curvy/save.js ***!
+  \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -153,10 +153,10 @@ function save() {
 
 /***/ }),
 
-/***/ "./src/editor.scss":
-/*!*************************!*\
-  !*** ./src/editor.scss ***!
-  \*************************/
+/***/ "./src/blocks/curvy/editor.scss":
+/*!**************************************!*\
+  !*** ./src/blocks/curvy/editor.scss ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -165,10 +165,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/style.scss":
-/*!************************!*\
-  !*** ./src/style.scss ***!
-  \************************/
+/***/ "./src/blocks/curvy/style.scss":
+/*!*************************************!*\
+  !*** ./src/blocks/curvy/style.scss ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -217,10 +217,10 @@ module.exports = window["wp"]["i18n"];
 
 /***/ }),
 
-/***/ "./src/block.json":
-/*!************************!*\
-  !*** ./src/block.json ***!
-  \************************/
+/***/ "./src/blocks/curvy/block.json":
+/*!*************************************!*\
+  !*** ./src/blocks/curvy/block.json ***!
+  \*************************************/
 /***/ ((module) => {
 
 module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/curvy","version":"0.1.0","title":"Curvy","category":"widgets","icon":"smiley","description":"Example block scaffolded with Create Block tool.","supports":{"html":false},"textdomain":"curvy","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
@@ -337,8 +337,8 @@ module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"index": 0,
-/******/ 			"./style-index": 0
+/******/ 			"blocks/curvy/index": 0,
+/******/ 			"blocks/curvy/style-index": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -388,7 +388,7 @@ module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["./style-index"], () => (__webpack_require__("./src/index.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["blocks/curvy/style-index"], () => (__webpack_require__("./src/blocks/curvy/index.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
