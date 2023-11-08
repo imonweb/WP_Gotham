@@ -6,7 +6,7 @@
 	"title": "Curvy",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "block scaffolded with Create Block tool.",
 	"supports": {
 		"html": false
 	},
