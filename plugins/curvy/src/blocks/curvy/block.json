@@ -6,11 +6,11 @@
 	"title": "Curvy",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "block scaffolded with Create Block tool.",
+	"description": "Curvy shape dividers to make dividing page content more interesting",
 	"supports": {
 		"html": false
 	},
-	"textdomain": "curvy",
+	"textdomain": "blockylicious",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css"
