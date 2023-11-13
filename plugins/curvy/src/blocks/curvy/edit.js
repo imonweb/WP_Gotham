@@ -32,7 +32,8 @@ import './editor.scss';
  */
 import metadata from './block.json';
 
-export default function Edit() {
+export default function Edit(props) {
+	console.log({props});
 	return (
 		<>
 			<p { ...useBlockProps() }>
