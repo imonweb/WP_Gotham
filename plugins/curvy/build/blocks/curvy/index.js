@@ -68,7 +68,14 @@ function Edit(props) {
     style: {
       display: "flex"
     }
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.ToggleControl, null), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Enable top curve", _block_json__WEBPACK_IMPORTED_MODULE_5__.textdomain))))));
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.ToggleControl, {
+    onChange: isChecked => {
+      props.setAttributes({
+        enableTopCurve: isChecked
+      });
+    },
+    checked: props.attributes.enableTopCurve
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Enable top curve", _block_json__WEBPACK_IMPORTED_MODULE_5__.textdomain))))));
 }
 
 /***/ }),

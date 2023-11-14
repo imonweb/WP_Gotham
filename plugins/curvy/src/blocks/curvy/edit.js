@@ -42,7 +42,11 @@ export default function Edit(props) {
 			<InspectorControls>
 				<PanelBody title={__("Top curve", metadata.textdomain)}>
 					<div style={{display: "flex"}}>
-						<ToggleControl/>
+						<ToggleControl onChange={(isChecked) => {
+							props.setAttributes({
+								enableTopCurve: isChecked
+							});
+						}} checked={props.attributes.enableTopCurve} />
 						<span>
 							{__("Enable top curve", metadata.textdomain)}
 						</span>
