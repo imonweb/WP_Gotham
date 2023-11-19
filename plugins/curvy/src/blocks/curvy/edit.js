@@ -35,12 +35,14 @@ import {Curve} from './components/curve';
 
 export default function Edit(props) {
 	console.log({props});
+	const {className, ...blockProps} = useBlockProps();
 	return (
 		<>
-		<Curve />
-			<p { ...useBlockProps() }>
-				{ __( 'Curvy – hello from the editor!', metadata.textdomain ) }
-			</p>
+		<section className={`${className} alignfull`} {...blockProps}>
+			{props.attributes.enableTopCurve && <Curve />}
+			<Curve />
+		</section>
+			
 			<InspectorControls>
 				<PanelBody title={__("Top curve", metadata.textdomain)}>
 					<div style={{display: "flex"}}>
