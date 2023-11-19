@@ -31,11 +31,13 @@ import './editor.scss';
  * @return {WPElement} Element to render.
  */
 import metadata from './block.json';
+import {Curve} from './components/curve';
 
 export default function Edit(props) {
 	console.log({props});
 	return (
 		<>
+		<Curve />
 			<p { ...useBlockProps() }>
 				{ __( 'Curvy – hello from the editor!', metadata.textdomain ) }
 			</p>
