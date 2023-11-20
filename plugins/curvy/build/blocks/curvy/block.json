@@ -23,12 +23,24 @@
       "default": {
         "color": {
           "background": "#ec4899"
+        },
+        "spacing": {
+          "padding": {
+            "top": "80px",
+            "bottom": "80px",
+            "left": "50px",
+            "right": "50px"
+          }
         }
       }
     },
     "enableTopCurve": {
       "type": "boolean",
       "default": true
+    },
+    "topWidth": {
+      "type": "number",
+      "default": 100
     }
   },
   "textdomain": "blockylicious",
