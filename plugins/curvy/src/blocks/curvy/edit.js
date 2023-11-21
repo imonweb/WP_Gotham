@@ -62,7 +62,7 @@ export default function Edit(props) {
 							<RangeControl min={100} max={300} value={props.attributes.topWidth || 100} 
 							onChange={ (newValue) => {
 								props.setAttributes({
-									topWidth: parseInt(newValue)
+									topWidth: parseInt()
 								})
 							}}
 							label={__("Width", metadata.textdomain)} />
