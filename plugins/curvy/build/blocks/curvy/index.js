@@ -122,7 +122,7 @@ function Edit(props) {
     value: props.attributes.topWidth || 100,
     onChange: newValue => {
       props.setAttributes({
-        topWidth: parseInt()
+        topWidth: parseInt(newValue)
       });
     },
     label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Width", _block_json__WEBPACK_IMPORTED_MODULE_5__.textdomain)
