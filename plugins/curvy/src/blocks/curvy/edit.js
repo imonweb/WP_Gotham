@@ -65,7 +65,7 @@ export default function Edit(props) {
 									topWidth: parseInt(newValue)
 								})
 							}}
-							label={__("Width", metadata.textdomain)} />
+							// label={__("Width", metadata.textdomain)} />
 						</>
 					}
 				</PanelBody>
