@@ -41,6 +41,10 @@
     "topWidth": {
       "type": "number",
       "default": 100
+    },
+    "topHeight": {
+      "type": "number",
+      "default": 100
     }
   },
   "textdomain": "blockylicious",

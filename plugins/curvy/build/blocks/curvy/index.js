@@ -1,13 +1,143 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/blocks/curvy/components/curve.js":
+/*!**********************************************!*\
+  !*** ./src/blocks/curvy/components/curve.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Curve: () => (/* binding */ Curve)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+const Curve = () => {
+  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("svg", {
+    style: {
+      position: "absolute",
+      top: 0,
+      left: 0
+    },
+    viewBox: "0 0 1200 120"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
+    style: {
+      fill: "white"
+    },
+    d: "M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+  })));
+};
+
+/***/ }),
 
 /***/ "./src/blocks/curvy/edit.js":
 /*!**********************************!*\
   !*** ./src/blocks/curvy/edit.js ***!
   \**********************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/src/blocks/curvy/edit.js: Unexpected token (69:6)\n\n\u001b[0m \u001b[90m 67 |\u001b[39m \t\t\t\t\t\t\t}}\u001b[0m\n\u001b[0m \u001b[90m 68 |\u001b[39m \t\t\t\t\t\t\t\u001b[90m// label={__(\"Width\", metadata.textdomain)} />\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 69 |\u001b[39m \t\t\t\t\t\t\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \t\t\t\t\t\t\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m \t\t\t\t\t}\u001b[0m\n\u001b[0m \u001b[90m 71 |\u001b[39m \t\t\t\t\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mPanelBody\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mInspectorControls\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at constructor (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:356:19)\n    at JSXParserMixin.raise (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:3223:19)\n    at JSXParserMixin.unexpected (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:3253:16)\n    at JSXParserMixin.jsxParseIdentifier (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6730:12)\n    at JSXParserMixin.jsxParseNamespacedName (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6737:23)\n    at JSXParserMixin.jsxParseAttribute (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6817:22)\n    at JSXParserMixin.jsxParseOpeningElementAfterName (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6832:28)\n    at JSXParserMixin.jsxParseOpeningElementAt (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6827:17)\n    at JSXParserMixin.jsxParseElementAt (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6851:33)\n    at JSXParserMixin.jsxParseElementAt (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6863:32)\n    at JSXParserMixin.jsxParseElement (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6920:17)\n    at JSXParserMixin.parseExprAtom (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6932:19)\n    at JSXParserMixin.parseExprSubscripts (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10862:23)\n    at JSXParserMixin.parseUpdate (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10845:21)\n    at JSXParserMixin.parseMaybeUnary (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10821:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10659:61)\n    at JSXParserMixin.parseExprOpBaseRightExpr (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10752:34)\n    at JSXParserMixin.parseExprOpRightExpr (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10747:21)\n    at JSXParserMixin.parseExprOp (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10710:27)\n    at JSXParserMixin.parseExprOps (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10668:17)\n    at JSXParserMixin.parseMaybeConditional (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10641:23)\n    at JSXParserMixin.parseMaybeAssign (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10602:21)\n    at JSXParserMixin.parseExpressionBase (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10556:23)\n    at /Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10552:39\n    at JSXParserMixin.allowInAnd (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:12289:12)\n    at JSXParserMixin.parseExpression (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10552:17)\n    at JSXParserMixin.jsxParseExpressionContainer (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6797:31)\n    at JSXParserMixin.jsxParseElementAt (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6876:36)\n    at JSXParserMixin.jsxParseElementAt (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6863:32)\n    at JSXParserMixin.jsxParseElementAt (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6863:32)\n    at JSXParserMixin.jsxParseElement (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6920:17)\n    at JSXParserMixin.parseExprAtom (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6932:19)\n    at JSXParserMixin.parseExprSubscripts (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10862:23)\n    at JSXParserMixin.parseUpdate (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10845:21)\n    at JSXParserMixin.parseMaybeUnary (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10821:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10659:61)\n    at JSXParserMixin.parseExprOps (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10664:23)\n    at JSXParserMixin.parseMaybeConditional (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10641:23)\n    at JSXParserMixin.parseMaybeAssign (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10602:21)\n    at /Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10572:39\n    at JSXParserMixin.allowInAnd (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:12289:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10572:17)\n    at JSXParserMixin.parseParenAndDistinguishExpression (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:11504:28)\n    at JSXParserMixin.parseExprAtom (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:11142:23)\n    at JSXParserMixin.parseExprAtom (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:6937:20)\n    at JSXParserMixin.parseExprSubscripts (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10862:23)\n    at JSXParserMixin.parseUpdate (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10845:21)\n    at JSXParserMixin.parseMaybeUnary (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10821:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10659:61)\n    at JSXParserMixin.parseExprOps (/Users/imon/Sites/wp/Udemy/gotham/wp-content/plugins/curvy/node_modules/@babel/parser/lib/index.js:10664:23)");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Edit)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
+/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
+/* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./editor.scss */ "./src/blocks/curvy/editor.scss");
+/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./block.json */ "./src/blocks/curvy/block.json");
+/* harmony import */ var _components_curve__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/curve */ "./src/blocks/curvy/components/curve.js");
+
+/**
+ * Retrieves the translation of text.
+ *
+ * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-i18n/
+ */
+
+
+/**
+ * React hook that is used to mark the block wrapper element.
+ * It provides all the necessary props like the class name.
+ *
+ * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
+ */
+
+
+
+/**
+ * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
+ * Those files can contain any CSS code that gets applied to the editor.
+ *
+ * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
+ */
+
+
+/**
+ * The edit function describes the structure of your block in the context of the
+ * editor. This represents what the editor will render when the block is used.
+ *
+ * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-edit-save/#edit
+ *
+ * @return {WPElement} Element to render.
+ */
+
+
+function Edit(props) {
+  console.log({
+    props
+  });
+  const {
+    className,
+    ...blockProps
+  } = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)();
+  console.log({
+    className
+  });
+  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("section", {
+    className: `${className} alignfull`,
+    ...blockProps
+  }, props.attributes.enableTopCurve && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_curve__WEBPACK_IMPORTED_MODULE_6__.Curve, null), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_curve__WEBPACK_IMPORTED_MODULE_6__.Curve, null)), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InspectorControls, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelBody, {
+    title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Top curve", _block_json__WEBPACK_IMPORTED_MODULE_5__.textdomain)
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    style: {
+      display: "flex"
+    }
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.ToggleControl, {
+    onChange: isChecked => {
+      props.setAttributes({
+        enableTopCurve: isChecked
+      });
+    },
+    checked: props.attributes.enableTopCurve
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Enable top curve", _block_json__WEBPACK_IMPORTED_MODULE_5__.textdomain))), props.attributes.enableTopCurve && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.HorizontalRule, null), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.RangeControl, {
+    min: 100,
+    max: 300,
+    value: props.attributes.topWidth || 100,
+    onChange: newValue => {
+      props.setAttributes({
+        topWidth: parseInt(newValue)
+      });
+    },
+    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Width", _block_json__WEBPACK_IMPORTED_MODULE_5__.textdomain)
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.RangeControl, {
+    min: 0,
+    max: 200,
+    value: props.attributes.topHeight,
+    onChange: newValue => {
+      props.setAttributes({
+        topHeight: parseInt(newValue)
+      });
+    },
+    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Height", _block_json__WEBPACK_IMPORTED_MODULE_5__.textdomain)
+  })))));
+}
 
 /***/ }),
 
@@ -17,7 +147,6 @@ throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__);
@@ -72,7 +201,6 @@ __webpack_require__.r(__webpack_exports__);
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ save)
@@ -107,13 +235,24 @@ function save() {
 
 /***/ }),
 
+/***/ "./src/blocks/curvy/editor.scss":
+/*!**************************************!*\
+  !*** ./src/blocks/curvy/editor.scss ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./src/blocks/curvy/style.scss":
 /*!*************************************!*\
   !*** ./src/blocks/curvy/style.scss ***!
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
@@ -126,7 +265,6 @@ __webpack_require__.r(__webpack_exports__);
   \************************/
 /***/ ((module) => {
 
-"use strict";
 module.exports = window["React"];
 
 /***/ }),
@@ -137,7 +275,6 @@ module.exports = window["React"];
   \*************************************/
 /***/ ((module) => {
 
-"use strict";
 module.exports = window["wp"]["blockEditor"];
 
 /***/ }),
@@ -148,8 +285,27 @@ module.exports = window["wp"]["blockEditor"];
   \********************************/
 /***/ ((module) => {
 
-"use strict";
 module.exports = window["wp"]["blocks"];
+
+/***/ }),
+
+/***/ "@wordpress/components":
+/*!************************************!*\
+  !*** external ["wp","components"] ***!
+  \************************************/
+/***/ ((module) => {
+
+module.exports = window["wp"]["components"];
+
+/***/ }),
+
+/***/ "@wordpress/i18n":
+/*!******************************!*\
+  !*** external ["wp","i18n"] ***!
+  \******************************/
+/***/ ((module) => {
+
+module.exports = window["wp"]["i18n"];
 
 /***/ }),
 
@@ -159,8 +315,7 @@ module.exports = window["wp"]["blocks"];
   \*************************************/
 /***/ ((module) => {
 
-"use strict";
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"blockylicious/curvy","version":"0.1.0","title":"Curvy","category":"widgets","icon":"smiley","description":"Curvy shape dividers to make dividing page content more interesting","supports":{"html":false,"color":{"background":true,"link":true,"text":true},"spacing":{"padding":true}},"attributes":{"style":{"default":{"color":{"background":"#ec4899"},"spacing":{"padding":{"top":"80px","bottom":"80px","left":"50px","right":"50px"}}}},"enableTopCurve":{"type":"boolean","default":true},"topWidth":{"type":"number","default":100}},"textdomain":"blockylicious","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"blockylicious/curvy","version":"0.1.0","title":"Curvy","category":"widgets","icon":"smiley","description":"Curvy shape dividers to make dividing page content more interesting","supports":{"html":false,"color":{"background":true,"link":true,"text":true},"spacing":{"padding":true}},"attributes":{"style":{"default":{"color":{"background":"#ec4899"},"spacing":{"padding":{"top":"80px","bottom":"80px","left":"50px","right":"50px"}}}},"enableTopCurve":{"type":"boolean","default":true},"topWidth":{"type":"number","default":100},"topHeight":{"type":"number","default":100}},"textdomain":"blockylicious","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ })
 
