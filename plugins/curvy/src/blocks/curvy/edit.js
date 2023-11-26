@@ -40,7 +40,12 @@ export default function Edit(props) {
 	return (
 		<>
 		<section className={`${className} alignfull`} {...blockProps}>
-			{props.attributes.enableTopCurve && <Curve height={props.attributes.topHeight} />}
+			{props.attributes.enableTopCurve && 
+			<Curve 
+				height={props.attributes.topHeight} 
+				width={props.attributes.topWidth} 
+			/>
+			}
 			<Curve />
 		</section>
 			
