@@ -11,7 +11,7 @@ import { __ } from '@wordpress/i18n';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-import { useBlockProps, InspectorControls } from '@wordpress/block-editor';
+import { useBlockProps, InspectorControls, ColorPalette } from '@wordpress/block-editor';
 import { PanelBody, ToggleControl, HorizontalRule, RangeControl } from '@wordpress/components';
 
 /**
@@ -104,7 +104,23 @@ export default function Edit(props) {
 									{__("Flip vertically", metadata.textdomain)}
 								</span>
 							</div>
-
+							<HorizontalRule />
+							<div>
+								<label>{__("Curve color", metadata.textdomain)}</label>
+								<ColorPalette  
+									disableCustomColors
+									colors={[{
+										name: "Yellow",
+										color: "#FFFF00"
+									}]}
+									value={props.attributes.topColor}
+									onChange={(newValue) => {
+										props.setAttributes({
+											topColor: newValue,
+										})
+									}}
+								/>
+							</div>
 						</>
 					}
 				</PanelBody>

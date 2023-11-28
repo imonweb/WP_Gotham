@@ -53,6 +53,10 @@
     "topFlipY": {
       "type": "boolean",
       "default": false
+    },
+    "topColor": {
+      "type": "string",
+      "default": "#FFFFFF"
     }
   },
   "textdomain": "blockylicious",
