@@ -40,7 +40,7 @@ const Curve = props => {
     viewBox: "0 0 1200 120"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
     style: {
-      fill: "white"
+      fill: props.color || "white"
     },
     d: props.flipY ? invertedPath : normalPath
   })));
@@ -119,6 +119,7 @@ function Edit(props) {
     className: `${className} alignfull`,
     ...blockProps
   }, props.attributes.enableTopCurve && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_components_curve__WEBPACK_IMPORTED_MODULE_6__.Curve, {
+    color: props.attributes.topColor,
     flipX: props.attributes.topFlipX,
     flipY: props.attributes.topFlipY,
     height: props.attributes.topHeight,
@@ -178,12 +179,13 @@ function Edit(props) {
       });
     },
     checked: props.attributes.topFlipY
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Flip vertically", _block_json__WEBPACK_IMPORTED_MODULE_5__.textdomain))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.HorizontalRule, null), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Curve color", _block_json__WEBPACK_IMPORTED_MODULE_5__.textdomain)), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.ColorPalette, {
-    disableCustomColors: true,
-    colors: [{
-      name: "Yellow",
-      color: "#FFFF00"
-    }],
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Flip vertically", _block_json__WEBPACK_IMPORTED_MODULE_5__.textdomain))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.HorizontalRule, null), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)("Curve color", _block_json__WEBPACK_IMPORTED_MODULE_5__.textdomain)), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.ColorPalette
+  // disableCustomColors
+  // colors={[{
+  // 	name: "Yellow",
+  // 	color: "#FFFF00"
+  // }]}
+  , {
     value: props.attributes.topColor,
     onChange: newValue => {
       props.setAttributes({

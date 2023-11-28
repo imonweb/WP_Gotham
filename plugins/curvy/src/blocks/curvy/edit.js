@@ -42,6 +42,7 @@ export default function Edit(props) {
 		<section className={`${className} alignfull`} {...blockProps}>
 			{props.attributes.enableTopCurve && (
 			<Curve 
+				color={props.attributes.topColor}
 				flipX={props.attributes.topFlipX}
 				flipY={props.attributes.topFlipY}
 				height={props.attributes.topHeight} 
@@ -108,11 +109,11 @@ export default function Edit(props) {
 							<div>
 								<label>{__("Curve color", metadata.textdomain)}</label>
 								<ColorPalette  
-									disableCustomColors
-									colors={[{
-										name: "Yellow",
-										color: "#FFFF00"
-									}]}
+									// disableCustomColors
+									// colors={[{
+									// 	name: "Yellow",
+									// 	color: "#FFFF00"
+									// }]}
 									value={props.attributes.topColor}
 									onChange={(newValue) => {
 										props.setAttributes({
