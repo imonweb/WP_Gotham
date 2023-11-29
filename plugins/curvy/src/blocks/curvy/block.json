@@ -58,6 +58,31 @@
 		"topColor": {
 			"type": "string",
 			"default": "#FFFFFF"
+		},
+
+		"enableBottomCurve": {
+			"type": "boolean",
+			"default": true
+		},
+		"bottomWidth":{
+			"type": "number",
+			"default": 100
+		},
+		"bottomHeight": {
+			"type": "number",
+			"default": 100
+		},
+		"bottomFlipX": {
+			"type": "boolean",
+			"default": false
+		},
+		"bottomFlipY":{
+			"type": "boolean",
+			"default": false
+		},
+		"bottomColor": {
+			"type": "string",
+			"default": "#FFFFFF"
 		}
 		
 	},
