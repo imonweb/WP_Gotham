@@ -23,7 +23,12 @@
  */
 
 function create_custom_block_category($categories){
-	wp_send_json($categories);
+	// wp_send_json($categories);
+	array_unshift($categories, [
+		'slug' => 'blockylicious',
+		'title' => 'Blockylicious'
+	]);
+	return $categories;
 }
 
 function create_block_blockylicious_block_init() {

@@ -4,7 +4,7 @@
 	"name": "blockylicious/curvy",
 	"version": "0.1.0",
 	"title": "Curvy",
-	"category": "widgets",
+	"category": "blockylicious",
 	"icon": "smiley",
 	"description": "Curvy shape dividers to make dividing page content more interesting",
 	"supports": {
