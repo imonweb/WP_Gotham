@@ -571,7 +571,24 @@ __webpack_require__.r(__webpack_exports__);
   // icon: <div className="curvy-icon">hello curvy</div>
   icon: (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
     src: _assets_icon_svg__WEBPACK_IMPORTED_MODULE_6__["default"]
-  })
+  }),
+  transforms: {
+    from: [{
+      type: "block",
+      blocks: ["core/paragraph"],
+      transform: attributes => {
+        // console.log({data});
+        return (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__.createBlock)("blockylicious/curvy", {}, [(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__.createBlock)("core/paragraph", attributes)]);
+      }
+    }, {
+      type: "block",
+      blocks: ["core/heading"],
+      transform: attributes => {
+        // console.log({data});
+        return (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__.createBlock)("blockylicious/curvy", {}, [(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__.createBlock)("core/heading", attributes)]);
+      }
+    }]
+  }
 });
 
 /***/ }),

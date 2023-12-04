@@ -3,7 +3,7 @@
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-import { registerBlockType } from '@wordpress/blocks';
+import { registerBlockType, createBlock } from '@wordpress/blocks';
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -39,4 +39,28 @@ registerBlockType( metadata.name, {
 	save,
 	// icon: <div className="curvy-icon">hello curvy</div>
 	icon: <img src={icon} />,
+	transforms: {
+		from: [
+			{
+				type: "block",
+				blocks: ["core/paragraph"],
+				transform: (attributes) => {
+					// console.log({data});
+					return createBlock("blockylicious/curvy", {}, [
+						createBlock("core/paragraph", attributes)
+					])
+				},
+			},
+			{
+				type: "block",
+				blocks: ["core/heading"],
+				transform: (attributes) => {
+					// console.log({data});
+					return createBlock("blockylicious/curvy", {}, [
+						createBlock("core/heading", attributes)
+					])
+				},
+			}
+		]
+	}
 } );
