@@ -18,8 +18,27 @@
       "padding": true
     }
   },
+  "variations": [
+    {
+      "name": "top-only",
+      "title": "Curvy - top only",
+      "attributes": {
+        "enableBottomCurve": false,
+        "enableTopCurve": true
+      }
+    },
+    {
+      "name": "bottom-only",
+      "title": "Curvy - bottom only",
+      "attributes": {
+        "enableBottomCurve": true,
+        "enableTopCurve": false
+      }
+    }
+  ],
   "attributes": {
     "style": {
+      "type": "object",
       "default": {
         "color": {
           "background": "#ec4899"
