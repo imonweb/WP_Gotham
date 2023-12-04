@@ -36,6 +36,22 @@
       }
     }
   ],
+  "example": {
+    "innerBlocks": [
+      {
+        "name": "core/heading",
+        "attributes": {
+          "content": "Lorem ipsum"
+        }
+      },
+      {
+        "name": "core/paragraph",
+        "attributes": {
+          "content": "This is an example curvy block"
+        }
+      }
+    ]
+  },
   "attributes": {
     "style": {
       "type": "object",
