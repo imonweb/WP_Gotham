@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockylicious/clicky-group",
+  "version": "0.1.0",
+  "title": "Clicky group",
+  "category": "blockylicious",
+  "icon": "smiley",
+  "description": "A group of clicky buttons that link to a particular post or page than hardcoding the destination url.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "blockylicious",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
